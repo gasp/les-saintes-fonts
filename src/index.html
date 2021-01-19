@@ -3,40 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>les saintes fonts</title>
-    <meta name="viewport" content="width=device-width, initial-scale=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style media="screen">
       body {
         margin: 0;
         padding: 0;
       }
       main {
-        margin-left: 20px;
-        max-width: 600px;
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        max-width: 30rem;
       }
       footer {
-        margin-top: 2em;
-        padding-top: 2em;
+        margin-top: 2rem;
+        padding: 2ex 1em;
         border-top: 1px solid #ccc;
         background: #f2f2f2;
+        width: 100vw;
       }
-      footer ul {
-        margin-left: 20px;
-        max-width: 600px;
+      footer ol, footer ol li {
+        padding-left: 0;
+        margin-left: 1ex;
       }
-      .mainpict {
-        max-width: 350px;
+      img {
+        max-width: 100vw;
+        margin-left: -1rem;
+      }
+      h1, h2 {
+        font-weight: normal;
+      }
+      sup {
+        font-size: .5em;
       }
       .update {
         margin-top: 2em;
         text-align: right;
+        font-family: monospace;
         font-size: .8em;
+      }
+      .cite-backlink a {
+        font-family: sans-serif;
+        font-size: .8em;
+        text-decoration: none;
+        background: none;
       }
     </style>
   </head>
   <body>
     <main>
       <h1>Les Saintes Fonts</h1>
-      <img class="mainpict" src="assets/img/lsf-pic-800w.jpg"
+      <img src="assets/img/lsf-pic-800w.jpg"
         srcset="assets/img/lsf-pic-800w.jpg,
           assets/img/lsf-pic-1024w.jpg 1.5x,
           assets/img/lsf-pic-1600w.jpg 2x,
@@ -61,7 +79,7 @@
 
         <h2>Histoire</h2>
         <p>
-          Ces arbres ont été abandonnés lors du gel de 1956,
+          Ces arbres ont été abandonnés lors du gel de 1956<sup><a id="cite_ref-1" href="#ref-1">1</a></sup>,
           puis remis en état au début des années 2000.
         </p>
         <p>
@@ -87,7 +105,7 @@
           engrais, insecticide, ni autre produit
           phytosanitaire n'a jamais été utilisé.
           Cette méthode pose certains <i>problèmes</i>
-          notamment concernant la mouche de l'olive,
+          notamment concernant la mouche de l'olive<sup><a id="cite_ref-2" href="#ref-2">2</a></sup>,
           c'est pour cela que nous n'avons pas de récolte
           tous les ans.
         </p>
@@ -144,19 +162,35 @@
           <a href="https://www.levieuxmoulinfarnoux.fr/produit/bidon-5l-huile-tanche/" target="_blank" rel="nofollow">Moulin Farnoux</a>).
         </p>
         <ul>
-          <li>Prix au bidon de 5 litres: <b>100 €</b></li>
-          <li>Prix à la bouteille de 1 litre: <b>21,50 €</b></li>
+          <li>Prix au bidon de 5 litres&nbsp;: <b>100 €</b></li>
+          <li>Prix à la bouteille de 1 litre&nbsp;: <b>21,50 €</b></li>
         </ul>
       </div>
     </main>
     <footer>
-      <ul>
-        <li>Voir sur Wikipédia : <a rel="nofollow" href="https://fr.wikipedia.org/wiki/Mouche_de_l%27olive">La mouche de l'olive</a></li>
-        <li>Voir sur Wikipedia : <a rel="nofollow" href="https://fr.wikipedia.org/wiki/Vague_de_froid_de_l%27hiver_1956_en_Europe_et_au_Maghreb">Vague de froid de l'hiver 1956 en Europe et au Maghreb</a></li>
-        <li>Voir sur ina.fr : <a rel="nofollow" href="https://fresques.ina.fr/sudorama/fiche-media/00000000144">Février 1956 : un froid exceptionnel paralyse la région</a></li>
-        <li>Voir sur inao.gouv.fr : <a rel="nofollow" href="https://www.inao.gouv.fr/produit/3307">Olives noires de Nyons</a></li>
-      </ul>
-      <div class="update">Date de dernière mise à jour: 2020-12-04</div>
+      <div style="border: 1px solid pink">
+        Notes de bas de page
+        <ol>
+          <li id="ref-1">
+            [<span class="cite-backlink noprint">&thinsp;<a href="#cite_ref-1" aria-label="Revenir plus haut" title="Revenir plus haut">↑</a>&thinsp;</span>]
+            En 1956, une vague de froid a touché tout l'hémisphère Nord. Le 2 février, après un mois de janvier anormalement clément, la température est passée en quelques heures de +12°C à -10°C. Deux jours après, 80 centimètres de neige recouvraient la Provence toute entière et le thermomètre continuait à descendre jusqu'à à atteindre à certains endroits près de -20°C.<br />
+            On estime qu'en Provence près d'un million d'oliviers auraient entièrement gelé et cinq millions ont du être abattu, soit 80% des oliviers provençaux.<br />
+            À cette époque, de nombreux agriculteurs arrachent les oliviers et plantent des vignes qui ont un meilleur retour sur investissement à court terme.
+            En savoir plus&nbsp;: <a rel="nofollow" href="https://fr.wikipedia.org/wiki/Vague_de_froid_de_l%27hiver_1956_en_Europe_et_au_Maghreb">Vague de froid de l'hiver 1956 en Europe et au Maghreb</a>
+          </li>
+          <li id="ref-2">
+            [<span class="cite-backlink noprint">&thinsp;<a href="#cite_ref-2" aria-label="Revenir plus haut" title="Revenir plus haut">↑</a>&thinsp;</span>]
+            Voir sur Wikipédia&nbsp;: <a rel="nofollow" href="https://fr.wikipedia.org/wiki/Mouche_de_l%27olive">La mouche de l'olive</a>
+          </li>
+          <li>
+            Voir sur ina.fr&nbsp;: <a rel="nofollow" href="https://fresques.ina.fr/sudorama/fiche-media/00000000144">Février 1956 : un froid exceptionnel paralyse la région</a>
+          </li>
+          <li>
+            Voir sur inao.gouv.fr&nbsp;: <a rel="nofollow" href="https://www.inao.gouv.fr/produit/3307">Olives noires de Nyons</a>
+          </li>
+        </ol>
+        <div class="update">Date de dernière mise à jour: 2020-12-04</div>
+      </div>
     </footer>
   </body>
 </html>
