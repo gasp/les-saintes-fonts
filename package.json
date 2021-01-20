@@ -1,0 +1,16 @@
+{
+  "name": "les-saintes-fonts.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gasp/les-saintes-fonts.git",
+  "author": "gasp",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "scripts": {
+    "build": "eleventy --input=./src --output=./dist",
+    "build2": "eleventy --input=./src --output=./dist --formats=md,html,pug",
+    "dev": "eleventy --input=./src --output=./dist --serve --port=8081"
+
+  }
+}
