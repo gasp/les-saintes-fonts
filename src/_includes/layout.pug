@@ -14,8 +14,8 @@ html
         padding: 0;
       }
       main {
-        border-left: 1px solid #eee;
-        border-right: 1px solid #eee;
+        /* border-left: 1px solid #eee;
+        border-right: 1px solid #eee; */
         margin-left: 1rem;
         margin-right: 1rem;
         max-width: 30rem;
@@ -58,8 +58,9 @@ html
   //- https://pugjs.org/language/interpolation.html#string-interpolation-unescaped
   body
     main !{content}
+    //- footer should be only on index, yet atm there is only one page
     footer
-      div(style="border: 1px solid pink") Notes de bas de page
+      div(style="/*border: 1px solid pink*/") Notes de bas de page
         ol
           li(id="ref-1").
             [<span class="cite-backlink noprint">&thinsp;<a href="#cite_ref-1" aria-label="Revenir plus haut" title="Revenir plus haut">↑</a>&thinsp;</span>]
