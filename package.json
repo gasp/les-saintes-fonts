@@ -10,6 +10,5 @@
   "scripts": {
     "build": "eleventy",
     "dev": "eleventy --serve --port=8081"
-
   }
 }
