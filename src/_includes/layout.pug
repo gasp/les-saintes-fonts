@@ -60,21 +60,5 @@ html
     main !{content}
     //- footer should be only on index, yet atm there is only one page
     footer
-      div(style="/*border: 1px solid pink*/") Notes de bas de page
-        ol
-          li(id="ref-1").
-            [<span class="cite-backlink noprint">&thinsp;<a href="#cite_ref-1" aria-label="Revenir plus haut" title="Revenir plus haut">↑</a>&thinsp;</span>]
-            En 1956, une vague de froid a touché tout l'hémisphère Nord. Le 2 février, après un mois de janvier anormalement clément, la température est passée en quelques heures de +12°C à -10°C. Deux jours après, 80 centimètres de neige recouvraient la Provence toute entière et le thermomètre continuait à descendre jusqu'à à atteindre à certains endroits près de -20°C.<br />
-            On estime qu'en Provence près d'un million d'oliviers auraient entièrement gelé et cinq millions ont du être abattu, soit 80% des oliviers provençaux.<br />
-            À cette époque, de nombreux agriculteurs arrachent les oliviers et plantent des vignes qui ont un meilleur retour sur investissement à court terme.
-            En savoir plus&nbsp;: <a rel="nofollow" href="https://fr.wikipedia.org/wiki/Vague_de_froid_de_l%27hiver_1956_en_Europe_et_au_Maghreb">Vague de froid de l'hiver 1956 en Europe et au Maghreb</a>
-          li(id="ref-2").
-            [<span class="cite-backlink noprint">&thinsp;<a href="#cite_ref-2" aria-label="Revenir plus haut" title="Revenir plus haut">↑</a>&thinsp;</span>]
-            Voir sur Wikipédia&nbsp;: <a rel="nofollow" href="https://fr.wikipedia.org/wiki/Mouche_de_l%27olive">La mouche de l'olive</a>
-          li.
-            Voir sur ina.fr&nbsp;: <a rel="nofollow" href="https://fresques.ina.fr/sudorama/fiche-media/00000000144">Février 1956 : un froid exceptionnel paralyse la région</a>
-          li.
-            Voir sur inao.gouv.fr&nbsp;: <a rel="nofollow" href="https://www.inao.gouv.fr/produit/3307">Olives noires de Nyons</a>
-        div(class="update") Date de dernière mise à jour : 
-          span #{page.date.toISOString()}
-      </div>
+      if page.url === '/'
+        include indexfooter.pug
