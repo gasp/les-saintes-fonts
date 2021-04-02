@@ -1,8 +1,5 @@
 module.exports = (eleventyConfig) => {
-  eleventyConfig.setTemplateFormats([
-    "md",
-    "html",
-  ]);
+  eleventyConfig.setTemplateFormats(["md", "html"]);
 
   eleventyConfig.addPassthroughCopy("src/assets");
 
@@ -10,6 +7,6 @@ module.exports = (eleventyConfig) => {
     dir: {
       input: "src",
       output: "dist",
-    }
+    },
   };
 };
